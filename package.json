@@ -1,12 +1,12 @@
 {
-  "name": "lsw14-jestTest",
+  "name": "jesttest",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/timh1203/lsw14-jestTest.git",
   "author": "Timothy Hoang <timh1203@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "devDependencies": {
     "jest": "^23.6.0"
