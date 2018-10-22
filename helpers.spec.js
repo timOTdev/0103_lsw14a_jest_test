@@ -23,6 +23,15 @@ describe('multiplyByTen()', () => {
     expect(product).toBe(0);
   })
 
+  // it('should return 0 when called with a string', () => {
+  //   expect(helpers.multiplyByTen('5')).toBe(0);
+  //   expect(helpers.multiplyByTen('five')).toBe(0);
+  // })
+
+  it('should throw error when called with a string', () => {
+    expect(() => helpers.multiplyByTen('5')).toThrow();
+  })
+
 })
 
 describe('toEqual() match', () => {
