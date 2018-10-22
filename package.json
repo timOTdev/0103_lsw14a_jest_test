@@ -6,7 +6,7 @@
   "author": "Timothy Hoang <timh1203@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watchAll --verbose"
   },
   "devDependencies": {
     "jest": "^23.6.0"
